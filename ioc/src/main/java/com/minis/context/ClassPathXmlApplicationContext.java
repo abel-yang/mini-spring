@@ -12,7 +12,7 @@ import com.minis.core.Resource;
  * @version 1.0
  * @date 2023/3/28 18:31
  */
-public class ClassPathXmlApplicationContext implements BeanFactory {
+public class ClassPathXmlApplicationContext implements BeanFactory, ApplicationEventPublisher {
     SimpleBeanFactory beanFactory;
 
     public ClassPathXmlApplicationContext(String filename) throws BeansException {
@@ -37,5 +37,20 @@ public class ClassPathXmlApplicationContext implements BeanFactory {
     @Override
     public Boolean containsBean(String beanName) {
         return this.beanFactory.containsBean(beanName);
+    }
+
+    @Override
+    public boolean isSingleton(String beanName) {
+        return false;
+    }
+
+    @Override
+    public boolean isPrototype(String beanName) {
+        return false;
+    }
+
+    @Override
+    public Class<?> getType(String beanName) {
+        return null;
     }
 }

@@ -33,4 +33,27 @@ public interface BeanFactory {
      * @return
      */
     Boolean containsBean(String beanName);
+
+    /**
+     * 是否单例
+     * @param beanName
+     * @return
+     */
+    boolean isSingleton(String beanName);
+
+    /**
+     * 是否多例
+     *
+     * @param beanName
+     * @return
+     */
+    boolean isPrototype(String beanName);
+
+    /**
+     * 获取bean class
+     *
+     * @param beanName
+     * @return
+     */
+    Class<?> getType(String beanName);
 }
