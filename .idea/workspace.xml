@@ -40,13 +40,6 @@
       <change afterPath="$PROJECT_DIR$/../mile-video/mile-video-api/src/main/resources/script/statisticsOfPlayCount.lua" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mile-video/mile-video-mapper/src/main/resources/com/milecn/video/mapper/mapper/IVideoActivityRecordManager.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../mile-video/mile-video-mapper/src/main/resources/com/milecn/video/mapper/mapperx/GroupItemsMapperx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ArgumentValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ArgumentValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/PropertyValue.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/PropertyValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/BeanDefinitionRegistry.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ApplicationEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ApplicationEventPublisher.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pgg-activity-parent/pgg-activity-api/src/main/java/com/pgg/activity/api/controller/api/ApiController.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/.gitignore" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/Dockerfile" afterDir="false" />
@@ -76,13 +69,10 @@
       <change beforePath="$PROJECT_DIR$/../mile-id-generator/src/main/resources/application.yml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mile-id-generator/src/main/resources/mybatis/mapper/WorkerNodeMapper.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../mile-id-generator/src/test/java/com/milecn/uid/mileidgenerator/IdTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/SimpleBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/SimpleBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/BeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/BeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/BeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ArgumentValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ArgumentValues.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/PropertyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/PropertyValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/AServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/AServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../zan-demo/src/main/java/com/youzan/zandemo/StringGCTest.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/../zan-demo/src/main/java/com/youzan/zandemo/concurrent/GuardedObject.java" beforeDir="false" />
     </list>
@@ -202,7 +192,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1679999076878</updated>
-      <workItem from="1679999078896" duration="14783000" />
+      <workItem from="1679999078896" duration="17483000" />
     </task>
     <servers />
   </component>
@@ -214,26 +204,26 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="208" y="23" key="#Project_Structure/0.23.1440.803@0.23.1440.803" timestamp="1679999604428" />
-    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1680061233998">
+    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1680062247919">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1680061233998" />
-    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1680061274446">
+    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1680062247919" />
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1680067577256">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1680061274446" />
-    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1680061274445">
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1680067577256" />
+    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1680067577255">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1680061274445" />
-    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1680061274444">
+    <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1680067577255" />
+    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1680067577252">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1680061274444" />
-    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1680061274445">
+    <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1680067577252" />
+    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1680067577255">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1680061274445" />
+    <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1680067577255" />
     <state x="208" y="23" key="SettingsEditor" timestamp="1680055630377">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
