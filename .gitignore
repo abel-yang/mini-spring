@@ -1,0 +1,68 @@
+# git版本控制忽略文件配置
+## COMMONS ###
+*.class
+**/target
+**/webapp/userfiles
+**/WEB-INF/classes
+**/logs/
+
+### PACKAGE FILES ###
+*.war
+*.ear
+#*.jar
+
+### MAVEN FILES ###
+target/
+
+### ECLIPSE FILES ###
+bin/
+.settings/
+.project
+.classpath
+.metadata
+
+### IDEA FILE ###
+.idea/
+/.idea/
+/idea/*
+out/
+*.ipr
+*.iml
+*.iws
+.idea/*
+
+### STS FILES ###
+.apt_generated
+.classpath
+.factorypath
+.project
+.settings
+.springBeans
+.sts4-cache
+
+### TEMP FILES ###
+*.log
+*.cache
+*.diff
+*.patch
+*.tmp
+
+### SYSTEM FILES ###
+.DS_Store
+Thumbs.db
+
+### Other FILES ###
+.svn
+.recommenders
+RemoteSystemsTempFiles
+~$*
+*.swp
+files/*
+tempfile/*
+*.md
+/mvnw
+/mvnw.*
+/.mvn/*
+rebel.xml
+
+/config-cache
