@@ -2,79 +2,61 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b72954ce-b34f-405d-9e61-605fd0e2524b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../ane/board-indicator/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/cust-jascrypt/src/main/java/com/ane56/cust/DbEnvironmentPostProcessor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/cust-jascrypt/src/main/resources/META-INF/spring.factories" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/cust/common-module/src/main/java/com/ane56/cust/common/component/cloud/CloudCallOf3dStrategy.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/cust/common-module/src/main/java/com/ane56/cust/common/model/Cloud/dto/CloudBaseInfoDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/demo/src/main/java/com/demo/DemoApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/express-tracking/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/express-tracking/src/main/java/com/ane56/express/tracking/ExpressTrackingApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/express-tracking/src/main/resources/dev/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-api/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-api/src/main/docker/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-api/src/main/java/com/ane56/oa/access/OaAccessApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-api/src/main/resources/dev/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-api/src/main/resources/dev/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-api/src/main/resources/dev/smart-doc.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-api/src/main/resources/start/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/src/main/java/com/ane56/oa/access/domain/entity/FlowData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/src/main/java/com/ane56/oa/access/domain/entity/FlowTypeDO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/src/main/java/com/ane56/oa/access/domain/enums/CallMethodEnum.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/src/main/java/com/ane56/oa/access/domain/flow/EventContext.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/src/main/java/com/ane56/oa/access/domain/flow/EventDispatcher.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/src/main/java/com/ane56/oa/access/domain/flow/EventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/src/main/java/com/ane56/oa/access/domain/flow/FlowEvent.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/src/main/java/com/ane56/oa/access/domain/flow/FlowType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/src/main/java/com/ane56/oa/access/domain/flow/HttpEventHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/src/main/java/com/ane56/oa/access/domain/user/IUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-domain/src/main/java/com/ane56/oa/access/domain/user/UserImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-infrastructure/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-infrastructure/src/main/java/com/ane56/oa/infrastructure/config/DataSourceConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/oa-access/oa-infrastructure/src/main/java/com/ane56/oa/infrastructure/config/JacksonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/sandi/src/main/java/com/ane56/sandi/Prod.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/sandi/src/main/java/com/ane56/sandi/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/workbench/domain/src/main/java/com/ane56/workbench/domain/seat/repository/impl/mapper/OrganizationMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../ane/workbench/domain/src/main/java/com/ane56/workbench/domain/seat/repository/impl/mapper/xml/OrganizationMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mile-video/mile-video-api/src/main/resources/script/statisticsOfPlayCount.lua" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mile-video/mile-video-mapper/src/main/resources/com/milecn/video/mapper/mapper/IVideoActivityRecordManager.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../mile-video/mile-video-mapper/src/main/resources/com/milecn/video/mapper/mapperx/GroupItemsMapperx.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-activity-parent/pgg-activity-api/src/main/java/com/pgg/activity/api/controller/api/ApiController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/Dockerfile" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/pgg-gateway/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/pgg-gateway/src/main/java/com/pgg/gateway/GatewayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/pgg-gateway/src/main/java/com/pgg/gateway/config/JacksonConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/pgg-gateway/src/main/java/com/pgg/gateway/config/RedisConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/pgg-gateway/src/main/java/com/pgg/gateway/constants/CacheConstants.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/pgg-gateway/src/main/java/com/pgg/gateway/pojo/ResultCode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/pgg-gateway/src/main/java/com/pgg/gateway/pojo/ResultDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/pgg-gateway/src/main/java/com/pgg/gateway/util/JsonUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../pgg-gateway-parent/pgg-gateway/src/main/resources/bootstrap.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../q-vod/src/main/java/com/qinque/vod/web/core/inteceptor/AccessLogInterceptor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redis-action/src/main/java/com/abel/redisaction/common/result/GenericExceptionHandler.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../redis-action/src/main/java/com/abel/redisaction/common/result/ResultDTO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tabby/src/main/java/com/pgg/tabby/core/model/ActionProperty.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../tabby/src/main/java/com/pgg/tabby/core/model/TabbyProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SbtExampleProject/src/main/scala/example/Main.scala" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../SbtExampleProject/src/main/scala/example/Mathematician.sc" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mile-id-generator/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mile-id-generator/pom.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mile-id-generator/src/main/java/com/milecn/uid/mileidgenerator/IdGeneratorApi.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mile-id-generator/src/main/java/com/milecn/uid/mileidgenerator/MileIdGeneratorApplication.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mile-id-generator/src/main/java/com/milecn/uid/mileidgenerator/config/DisposableWorkerIdAssigner.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mile-id-generator/src/main/java/com/milecn/uid/mileidgenerator/config/UidConfig.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mile-id-generator/src/main/java/com/milecn/uid/mileidgenerator/mapper/WorkerNodeMapper.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mile-id-generator/src/main/resources/application.yml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mile-id-generator/src/main/resources/mybatis/mapper/WorkerNodeMapper.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../mile-id-generator/src/test/java/com/milecn/uid/mileidgenerator/IdTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ArgumentValues.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ArgumentValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../apostle/apostle-core/src/main/java/apostle/core/ServiceResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/LabApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/CallB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/CallC.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/CatchUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/CloudCall.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/CompletableTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/HttpClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/LambdaTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/Publisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/Sample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/Search.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/Subscriber.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/common/TestA.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/cust/AbnormalSignSyn.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/cust/MistakeKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/cust/ProblemKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/cust/SignExceptionKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/cust/StringKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/excel/DemoData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/generic/Animal.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/generic/BaseHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/generic/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/generic/CarHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/generic/DomainEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/generic/Handler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/generic/OrderCreatedEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/netty/chapter2/EchoClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/netty/chapter2/EchoClientHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/netty/chapter2/EchoServer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/main/java/com/tabby/kit/netty/chapter2/EchoServerHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/test/groovy/com/tabby/kit/common/HttpClientSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/test/groovy/com/tabby/kit/common/PublisherSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/test/groovy/com/tabby/kit/common/SampleSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/test/groovy/com/tabby/kit/common/SearchTestSpec.groovy" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/test/java/com/tabby/excel/DemoDataListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../common-kit/src/test/java/com/tabby/excel/ReadTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ConstructorArgumentValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/SimpleBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/BaseBaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/BaseService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/CService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../parking-project/parking-common/src/main/java/com/mall/parking/common/util/RequestIdentifyKit.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../simple/flink-learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/SimpleBeanFactory.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ArgumentValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ConstructorArgumentValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ArgumentValues.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/BeanDefinition.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/PropertyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/PropertyValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ClassPathXmlApplicationContext.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/AServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/AServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zan-demo/src/main/java/com/youzan/zandemo/StringGCTest.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../zan-demo/src/main/java/com/youzan/zandemo/concurrent/GuardedObject.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,6 +91,7 @@
     <option name="autoscrollFromSource" value="true" />
     <option name="autoscrollToSource" value="true" />
     <option name="flattenPackages" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
@@ -122,7 +105,7 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.repository.indices" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -193,6 +176,10 @@
       <option name="presentableId" value="Default" />
       <updated>1679999076878</updated>
       <workItem from="1679999078896" duration="17483000" />
+      <workItem from="1680067661361" duration="7350000" />
+      <workItem from="1680226993312" duration="3028000" />
+      <workItem from="1680255649856" duration="595000" />
+      <workItem from="1680256425470" duration="6893000" />
     </task>
     <servers />
   </component>
@@ -204,37 +191,99 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="208" y="23" key="#Project_Structure/0.23.1440.803@0.23.1440.803" timestamp="1679999604428" />
-    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1680062247919">
+    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1680328127414">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1680062247919" />
-    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1680067577256">
+    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1680328127414" />
+    <state x="385" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1680328823518">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1680067577256" />
-    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1680067577255">
+    <state x="385" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.803@0.23.1440.803" timestamp="1680328823518" />
+    <state x="588" y="328" width="594" height="264" key="Github.ShareDialog" timestamp="1680069107148">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1680067577255" />
-    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1680067577252">
+    <state x="588" y="328" width="594" height="264" key="Github.ShareDialog/0.23.1440.803@0.23.1440.803" timestamp="1680069107148" />
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1680328597377">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1680067577252" />
-    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1680067577255">
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1680328597377" />
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1680226960988" />
+    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1680328597376">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1680067577255" />
-    <state x="208" y="23" key="SettingsEditor" timestamp="1680055630377">
+    <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1680328597376" />
+    <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1680226960987" />
+    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1680328597375">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="208" y="23" key="SettingsEditor/0.23.1440.803@0.23.1440.803" timestamp="1680055630377" />
+    <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1680328597375" />
+    <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1680226960987" />
+    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1680328597376">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1680328597376" />
+    <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1680226960987" />
+    <state width="1398" height="256" key="GridCell.Tab.1.bottom" timestamp="1680326735706">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1398" height="256" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1680326735706" />
+    <state width="1398" height="256" key="GridCell.Tab.1.center" timestamp="1680326735705">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1398" height="256" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1680326735705" />
+    <state width="1398" height="256" key="GridCell.Tab.1.left" timestamp="1680326735704">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1398" height="256" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1680326735704" />
+    <state width="1398" height="256" key="GridCell.Tab.1.right" timestamp="1680326735705">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state width="1398" height="256" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1680326735705" />
+    <state x="208" y="23" key="SettingsEditor" timestamp="1680069065028">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.803@0.23.1440.803" timestamp="1680069065028" />
+    <state x="511" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1680320694119">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="511" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.23.1440.803@0.23.1440.803" timestamp="1680320694119" />
+    <state x="458" y="169" key="extract.method.dialog" timestamp="1680256626986">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="458" y="169" key="extract.method.dialog/0.23.1440.803@0.23.1440.803" timestamp="1680256626986" />
     <state x="114" y="87" key="new project wizard" timestamp="1679999259936">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="114" y="87" key="new project wizard/0.23.1440.803@0.23.1440.803" timestamp="1679999259936" />
-    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1680059492298">
+    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1680327736670">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1680059492298" />
+    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1680327736670" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/SimpleBeanFactory.java</url>
+          <line>158</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/SimpleBeanFactory.java</url>
+          <line>139</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/SimpleBeanFactory.java</url>
+          <line>226</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/SimpleBeanFactory.java</url>
+          <line>119</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

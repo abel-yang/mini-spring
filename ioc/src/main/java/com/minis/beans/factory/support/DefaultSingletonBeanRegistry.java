@@ -16,6 +16,8 @@ public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
     protected List<String> beanNames = new ArrayList<>(256);
     protected Map<String, Object> singletons = new ConcurrentHashMap<>(256);
 
+
+
     @Override
     public void registerSingleton(String beanName, Object bean) {
         synchronized (this.singletons) {

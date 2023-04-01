@@ -2,7 +2,7 @@ package com.minis.context;
 
 import com.minis.beans.*;
 import com.minis.beans.factory.BeanFactory;
-import com.minis.beans.factory.config.BeanDefinition;
+import com.minis.beans.factory.support.SimpleBeanFactory;
 import com.minis.beans.factory.xml.XmlBeanDefinitionReader;
 import com.minis.core.ClassPathXmlResource;
 import com.minis.core.Resource;
@@ -16,12 +16,19 @@ public class ClassPathXmlApplicationContext implements BeanFactory, ApplicationE
     SimpleBeanFactory beanFactory;
 
     public ClassPathXmlApplicationContext(String filename) throws BeansException {
+        this(filename, true);
+
+    }
+
+    public ClassPathXmlApplicationContext(String filename, boolean isRefresh) throws BeansException {
         Resource resource = new ClassPathXmlResource(filename);
         SimpleBeanFactory beanFactory = new SimpleBeanFactory();
         XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(beanFactory);
         reader.loadBeanDefinitions(resource);
         this.beanFactory = beanFactory;
-
+        if(!isRefresh) {
+            this.beanFactory.refresh();
+        }
     }
 
     @Override

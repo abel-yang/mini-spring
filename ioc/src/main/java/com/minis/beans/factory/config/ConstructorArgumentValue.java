@@ -5,20 +5,22 @@ package com.minis.beans.factory.config;
  * @version 1.0
  * @date 2023/3/29 10:53
  */
-public class ArgumentValue {
+public class ConstructorArgumentValue {
     private Object value;
     private String type;
     private String name;
+    private boolean isRef;
 
-    public ArgumentValue(Object value, String type) {
+    public ConstructorArgumentValue(Object value, String type) {
         this.value = value;
         this.type = type;
     }
 
-    public ArgumentValue(Object value, String type, String name) {
+    public ConstructorArgumentValue(Object value, String type, String name, boolean isRef) {
         this.value = value;
         this.type = type;
         this.name = name;
+        this.isRef = isRef;
     }
 
     public Object getValue() {
@@ -43,5 +45,9 @@ public class ArgumentValue {
 
     public void setName(String name) {
         this.name = name;
+    }
+
+    public boolean isRef() {
+        return isRef;
     }
 }
