@@ -132,7 +132,7 @@
   <component name="RunManager">
     <configuration name="Test1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.minis.test.Test1" />
-      <module name="ioc" />
+      <module name="beans" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
@@ -153,6 +153,53 @@
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="TEST_OBJECT" value="class" />
       <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="JetRunConfigurationType">
+      <module name="beans" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <module name="beans" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="filePath" />
+      <option name="vmParameters" />
+      <option name="alternativeJrePath" />
+      <option name="programParameters" />
+      <option name="passParentEnvs" value="true" />
+      <option name="workingDirectory" />
+      <option name="isAlternativeJrePathEnabled" value="false" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="WORKING_DIRECTORY" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -196,7 +243,7 @@
       <workItem from="1680067661361" duration="7350000" />
       <workItem from="1680226993312" duration="3028000" />
       <workItem from="1680255649856" duration="595000" />
-      <workItem from="1680256425470" duration="26875000" />
+      <workItem from="1680256425470" duration="27309000" />
     </task>
     <servers />
   </component>
@@ -220,25 +267,25 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="588" y="328" width="594" height="264" key="Github.ShareDialog/0.23.1440.803@0.23.1440.803" timestamp="1680069107148" />
-    <state width="1398" height="256" key="GridCell.Tab.0.bottom" timestamp="1680488907094">
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1680489669949">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1680488907094" />
+    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1680489669949" />
     <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1680226960988" />
-    <state width="1398" height="256" key="GridCell.Tab.0.center" timestamp="1680488907093">
+    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1680489669948">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1680488907093" />
+    <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1680489669948" />
     <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1680226960987" />
-    <state width="1398" height="256" key="GridCell.Tab.0.left" timestamp="1680488907093">
+    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1680489669948">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1680488907093" />
+    <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1680489669948" />
     <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1680226960987" />
-    <state width="1398" height="256" key="GridCell.Tab.0.right" timestamp="1680488907094">
+    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1680489669948">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1680488907094" />
+    <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1680489669948" />
     <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1680226960987" />
     <state width="1398" height="256" key="GridCell.Tab.1.bottom" timestamp="1680488907096">
       <screen x="0" y="23" width="1440" height="803" />
@@ -280,10 +327,10 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="114" y="87" key="new project wizard/0.23.1440.803@0.23.1440.803" timestamp="1679999259936" />
-    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1680486913428">
+    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1680489413095">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1680486913428" />
+    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1680489413095" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
