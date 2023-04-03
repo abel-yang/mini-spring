@@ -33,7 +33,7 @@ public class DefaultSingletonBeanRegistry implements SingletonBeanRegistry {
     }
 
     @Override
-    public Boolean containsSingleton(String beanName) {
+    public boolean containsSingleton(String beanName) {
         return this.singletons.containsKey(beanName);
     }
 

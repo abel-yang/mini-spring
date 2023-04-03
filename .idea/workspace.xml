@@ -40,23 +40,39 @@
       <change afterPath="$PROJECT_DIR$/../common-kit/src/test/groovy/com/tabby/kit/common/SearchTestSpec.groovy" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../common-kit/src/test/java/com/tabby/excel/DemoDataListener.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../common-kit/src/test/java/com/tabby/excel/ReadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ConstructorArgumentValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/SimpleBeanFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/BaseBaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/BaseService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/CService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/Aware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/BeanFactoryAware.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/ListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/annotation/Autowired.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/annotation/BeanFactoryPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/annotation/BeanPostProcessor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/AutowireCapableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ConfigurableListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/DefaultListableBeanFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/AbstractApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ApplicationContext.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ApplicationListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ContextRefreshEvent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/SimpleApplicationEventPublisher.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/core/env/Environment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/core/env/EnvironmentCapable.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/core/env/PropertyResolver.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../parking-project/parking-common/src/main/java/com/mall/parking/common/util/RequestIdentifyKit.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../simple/flink-learn/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/SimpleBeanFactory.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ArgumentValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ConstructorArgumentValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/ArgumentValues.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/BeanDefinition.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/BeanDefinition.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/PropertyValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/PropertyValue.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/SingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/config/SingletonBeanRegistry.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/DefaultSingletonBeanRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/DefaultSingletonBeanRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/SimpleBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ApplicationEvent.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ApplicationEvent.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ApplicationEventPublisher.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ApplicationEventPublisher.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/context/ClassPathXmlApplicationContext.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/AServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/AServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/BaseBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/BaseBaseService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/java/com/minis/test/BaseService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/main/resources/beans.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ioc/src/test/java/com/minis/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/ioc/src/test/java/com/minis/test/Test1.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +86,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -179,7 +196,7 @@
       <workItem from="1680067661361" duration="7350000" />
       <workItem from="1680226993312" duration="3028000" />
       <workItem from="1680255649856" duration="595000" />
-      <workItem from="1680256425470" duration="6893000" />
+      <workItem from="1680256425470" duration="26875000" />
     </task>
     <servers />
   </component>
@@ -191,58 +208,62 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="208" y="23" key="#Project_Structure/0.23.1440.803@0.23.1440.803" timestamp="1679999604428" />
-    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1680328127414">
+    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1680487265957">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1680328127414" />
-    <state x="385" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1680328823518">
+    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1680487265957" />
+    <state x="330" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1680335197086">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="385" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.803@0.23.1440.803" timestamp="1680328823518" />
+    <state x="330" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1440.803@0.23.1440.803" timestamp="1680335197086" />
     <state x="588" y="328" width="594" height="264" key="Github.ShareDialog" timestamp="1680069107148">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="588" y="328" width="594" height="264" key="Github.ShareDialog/0.23.1440.803@0.23.1440.803" timestamp="1680069107148" />
-    <state width="1398" height="260" key="GridCell.Tab.0.bottom" timestamp="1680328597377">
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom" timestamp="1680488907094">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1680328597377" />
+    <state width="1398" height="256" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1680488907094" />
     <state width="1398" height="260" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1680226960988" />
-    <state width="1398" height="260" key="GridCell.Tab.0.center" timestamp="1680328597376">
+    <state width="1398" height="256" key="GridCell.Tab.0.center" timestamp="1680488907093">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1680328597376" />
+    <state width="1398" height="256" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1680488907093" />
     <state width="1398" height="260" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1680226960987" />
-    <state width="1398" height="260" key="GridCell.Tab.0.left" timestamp="1680328597375">
+    <state width="1398" height="256" key="GridCell.Tab.0.left" timestamp="1680488907093">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1680328597375" />
+    <state width="1398" height="256" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1680488907093" />
     <state width="1398" height="260" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1680226960987" />
-    <state width="1398" height="260" key="GridCell.Tab.0.right" timestamp="1680328597376">
+    <state width="1398" height="256" key="GridCell.Tab.0.right" timestamp="1680488907094">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1680328597376" />
+    <state width="1398" height="256" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1680488907094" />
     <state width="1398" height="260" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1680226960987" />
-    <state width="1398" height="256" key="GridCell.Tab.1.bottom" timestamp="1680326735706">
+    <state width="1398" height="256" key="GridCell.Tab.1.bottom" timestamp="1680488907096">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1680326735706" />
-    <state width="1398" height="256" key="GridCell.Tab.1.center" timestamp="1680326735705">
+    <state width="1398" height="256" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1680488907096" />
+    <state width="1398" height="256" key="GridCell.Tab.1.center" timestamp="1680488907095">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1680326735705" />
-    <state width="1398" height="256" key="GridCell.Tab.1.left" timestamp="1680326735704">
+    <state width="1398" height="256" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1680488907095" />
+    <state width="1398" height="256" key="GridCell.Tab.1.left" timestamp="1680488907095">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1680326735704" />
-    <state width="1398" height="256" key="GridCell.Tab.1.right" timestamp="1680326735705">
+    <state width="1398" height="256" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1680488907095" />
+    <state width="1398" height="256" key="GridCell.Tab.1.right" timestamp="1680488907095">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1398" height="256" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1680326735705" />
+    <state width="1398" height="256" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1680488907095" />
     <state x="208" y="23" key="SettingsEditor" timestamp="1680069065028">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="208" y="23" key="SettingsEditor/0.23.1440.803@0.23.1440.803" timestamp="1680069065028" />
+    <state x="450" y="163" width="540" height="524" key="StructurePopup" timestamp="1680424586150">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="450" y="163" width="540" height="524" key="StructurePopup/0.23.1440.803@0.23.1440.803" timestamp="1680424586150" />
     <state x="511" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1680320694119">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
@@ -251,14 +272,18 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="458" y="169" key="extract.method.dialog/0.23.1440.803@0.23.1440.803" timestamp="1680256626986" />
+    <state x="420" y="181" width="601" height="486" key="find.popup" timestamp="1680341502316">
+      <screen x="0" y="23" width="1440" height="803" />
+    </state>
+    <state x="420" y="181" width="601" height="486" key="find.popup/0.23.1440.803@0.23.1440.803" timestamp="1680341502316" />
     <state x="114" y="87" key="new project wizard" timestamp="1679999259936">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="114" y="87" key="new project wizard/0.23.1440.803@0.23.1440.803" timestamp="1679999259936" />
-    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1680327736670">
+    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1680486913428">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1680327736670" />
+    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1680486913428" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -282,6 +307,16 @@
           <url>file://$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/SimpleBeanFactory.java</url>
           <line>119</line>
           <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/support/AbstractBeanFactory.java</url>
+          <line>51</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/ioc/src/main/java/com/minis/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java</url>
+          <line>26</line>
+          <option name="timeStamp" value="13" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

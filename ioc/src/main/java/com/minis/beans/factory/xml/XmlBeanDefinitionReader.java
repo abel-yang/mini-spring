@@ -1,7 +1,7 @@
 package com.minis.beans.factory.xml;
 
-import com.minis.beans.factory.support.SimpleBeanFactory;
 import com.minis.beans.factory.config.*;
+import com.minis.beans.factory.config.AbstractAutowireCapableBeanFactory;
 import com.minis.core.Resource;
 import org.dom4j.Element;
 
@@ -14,9 +14,9 @@ import java.util.List;
  * @date 2023/3/28 19:08
  */
 public class XmlBeanDefinitionReader {
-    SimpleBeanFactory simpleBeanFactory;
+    AbstractAutowireCapableBeanFactory simpleBeanFactory;
 
-    public XmlBeanDefinitionReader(SimpleBeanFactory simpleBeanFactory) {
+    public XmlBeanDefinitionReader(AbstractAutowireCapableBeanFactory simpleBeanFactory) {
         this.simpleBeanFactory = simpleBeanFactory;
     }
 
