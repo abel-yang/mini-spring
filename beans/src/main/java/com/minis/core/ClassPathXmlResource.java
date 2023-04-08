@@ -20,14 +20,22 @@ public class ClassPathXmlResource implements Resource {
     Iterator<Element> elementIterator;
 
     public ClassPathXmlResource(String filename) throws BeansException {
-        SAXReader saxReader = new SAXReader();
         URL xmlPath = this.getClass().getClassLoader().getResource(filename);
+        read(xmlPath);
+    }
+
+    public ClassPathXmlResource(URL xmlPath) throws BeansException {
+        read(xmlPath);
+    }
+
+    private void read(URL path) throws BeansException {
+        SAXReader saxReader = new SAXReader();
         try {
-            this.document = saxReader.read(xmlPath);
+            this.document = saxReader.read(path);
             this.rootElement = document.getRootElement();
             this.elementIterator = this.rootElement.elementIterator();
         } catch (DocumentException e) {
-            throw new BeansException("读取配置信息出错: " + filename);
+            throw new BeansException("读取配置信息出错: " + path);
         }
     }
 
