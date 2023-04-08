@@ -60,17 +60,17 @@ public abstract class AbstractApplicationContext implements ApplicationContext{
         finishRefresh();
     }
 
-    abstract void registerListeners();
+    protected abstract void registerListeners();
 
-    abstract void initApplicationEventPublisher();
+    protected abstract void initApplicationEventPublisher();
 
-    abstract void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory);
+    protected abstract void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory);
 
-    abstract void registerBeanPostProcessors(ConfigurableListableBeanFactory beanFactory);
+    protected abstract void registerBeanPostProcessors(ConfigurableListableBeanFactory beanFactory);
 
-    abstract void onRefresh();
+    protected abstract void onRefresh();
 
-    abstract void finishRefresh();
+    protected abstract void finishRefresh();
 
 
     @Override
@@ -130,4 +130,31 @@ public abstract class AbstractApplicationContext implements ApplicationContext{
     public void setApplicationEventPublisher(ApplicationEventPublisher applicationEventPublisher) {
         this.applicationEventPublisher = applicationEventPublisher;
     }
+
+
+    @Override
+    public void registerBean(String beanName, Object bean) {
+        this.getBeanFactory().registerBean(beanName, bean);
+    }
+
+    @Override
+    public Boolean containsBean(String beanName) {
+        return this.getBeanFactory().containsBean(beanName);
+    }
+
+    @Override
+    public boolean isSingleton(String beanName) {
+        return false;
+    }
+
+    @Override
+    public boolean isPrototype(String beanName) {
+        return false;
+    }
+
+    @Override
+    public Class<?> getType(String beanName) {
+        return null;
+    }
+
 }

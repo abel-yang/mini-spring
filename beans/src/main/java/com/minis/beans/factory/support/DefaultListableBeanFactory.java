@@ -1,6 +1,7 @@
 package com.minis.beans.factory.support;
 
 import com.minis.beans.BeansException;
+import com.minis.beans.factory.BeanFactory;
 import com.minis.beans.factory.config.AbstractAutowireCapableBeanFactory;
 import com.minis.beans.factory.config.ConfigurableListableBeanFactory;
 import com.minis.beans.factory.config.BeanDefinition;
@@ -62,5 +63,10 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
             result = this.parentBeanFactory.getBean(beanName);
         }
         return result;
+    }
+
+
+    public void setParent(BeanFactory parentBeanFactory) {
+        this.parentBeanFactory = (ConfigurableListableBeanFactory) parentBeanFactory;
     }
 }

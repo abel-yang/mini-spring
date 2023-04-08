@@ -3,7 +3,6 @@ package com.minis.context;
 import com.minis.beans.BeansException;
 import com.minis.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor;
 import com.minis.beans.factory.annotation.BeanFactoryPostProcessor;
-import com.minis.beans.factory.annotation.BeanPostProcessor;
 import com.minis.beans.factory.config.ConfigurableListableBeanFactory;
 import com.minis.beans.factory.support.DefaultListableBeanFactory;
 import com.minis.beans.factory.xml.XmlBeanDefinitionReader;
@@ -22,25 +21,29 @@ public class ClassPathXmlApplicationContext extends AbstractApplicationContext{
     DefaultListableBeanFactory beanFactory;
     private final List<BeanFactoryPostProcessor> beanFactoryPostProcessors = new ArrayList<>();
 
-    public ClassPathXmlApplicationContext(String filename) throws BeansException {
+    public ClassPathXmlApplicationContext(String filename)  {
         this(filename, true);
 
     }
 
-    public ClassPathXmlApplicationContext(String filename, boolean isRefresh) throws BeansException {
-        Resource resource = new ClassPathXmlResource(filename);
-        DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
-        XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(beanFactory);
-        reader.loadBeanDefinitions(resource);
-        this.beanFactory = beanFactory;
-        if(isRefresh) {
-            refresh();
+    public ClassPathXmlApplicationContext(String filename, boolean isRefresh)  {
+        try {
+            Resource resource = new ClassPathXmlResource(filename);
+            DefaultListableBeanFactory beanFactory = new DefaultListableBeanFactory();
+            XmlBeanDefinitionReader reader = new XmlBeanDefinitionReader(beanFactory);
+            reader.loadBeanDefinitions(resource);
+            this.beanFactory = beanFactory;
+            if(isRefresh) {
+                refresh();
+            }
+        } catch (BeansException e) {
+            e.printStackTrace();
         }
     }
 
 
     @Override
-    void registerListeners() {
+    protected void registerListeners() {
         String[] bdNames = this.beanFactory.getBeanDefinitionNames();
         for (String bdName : bdNames) {
             Object bean = null;
@@ -57,13 +60,13 @@ public class ClassPathXmlApplicationContext extends AbstractApplicationContext{
     }
 
     @Override
-    void initApplicationEventPublisher() {
+    protected void initApplicationEventPublisher() {
         SimpleApplicationEventPublisher eventPublisher = new SimpleApplicationEventPublisher();
         this.setApplicationEventPublisher(eventPublisher);
     }
 
     @Override
-    void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) {
+    protected void postProcessBeanFactory(ConfigurableListableBeanFactory beanFactory) {
 
     }
 
@@ -78,14 +81,14 @@ public class ClassPathXmlApplicationContext extends AbstractApplicationContext{
     }
 
     @Override
-    void registerBeanPostProcessors(ConfigurableListableBeanFactory beanFactory) {
+    protected void registerBeanPostProcessors(ConfigurableListableBeanFactory beanFactory) {
         AutowiredAnnotationBeanPostProcessor beanPostProcessor = new AutowiredAnnotationBeanPostProcessor();
         beanPostProcessor.setBeanFactory(beanFactory);
         beanFactory.addBeanPostProcessor(beanPostProcessor);
     }
 
     @Override
-    void finishRefresh() {
+    protected void finishRefresh() {
         publishEvent(new ContextRefreshEvent("Context Refreshed..."));
     }
 
@@ -96,37 +99,8 @@ public class ClassPathXmlApplicationContext extends AbstractApplicationContext{
 
 
     @Override
-    void onRefresh() { this.beanFactory.refresh(); }
+    protected void onRefresh() { this.beanFactory.refresh(); }
 
-    @Override
-    public Object getBean(String beanName) throws BeansException {
-        return beanFactory.getBean(beanName);
-    }
-
-    @Override
-    public void registerBean(String beanName, Object bean) {
-        this.beanFactory.registerBean(beanName, bean);
-    }
-
-    @Override
-    public Boolean containsBean(String beanName) {
-        return this.beanFactory.containsBean(beanName);
-    }
-
-    @Override
-    public boolean isSingleton(String beanName) {
-        return false;
-    }
-
-    @Override
-    public boolean isPrototype(String beanName) {
-        return false;
-    }
-
-    @Override
-    public Class<?> getType(String beanName) {
-        return null;
-    }
 
 
 }

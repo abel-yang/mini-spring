@@ -32,4 +32,7 @@ public interface AutowireCapableBeanFactory extends BeanFactory {
      * @throws BeansException
      */
     Object applyBeanPostProcessorAfterInitialization(Object existingBean, String beanName) throws BeansException;
+
+
+
 }

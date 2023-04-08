@@ -124,6 +124,8 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
 
 
     public void registerBeanDefinition(BeanDefinition beanDefinition) {
+        this.beanDefinitionNames.remove(beanDefinition.getId());
+        this.beanDefinitionNames.add(beanDefinition.getId());
         this.beanDefinitionMap.put(beanDefinition.getId(), beanDefinition);
     }
 
@@ -206,7 +208,7 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
             clz = Class.forName(bd.getClassName());
             ConstructorArgumentValues constructorArgumentValues = bd.getConstructorArgumentValues();
 
-            if(!constructorArgumentValues.isEmpty()) {
+            if(constructorArgumentValues != null && !constructorArgumentValues.isEmpty()) {
                 Class<?>[] paramTypes = new Class[constructorArgumentValues.getArgumentCount()];
                 Object[] paramValues = new Object[constructorArgumentValues.getArgumentCount()];
 
@@ -252,7 +254,7 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
 
     private void populateBean(BeanDefinition beanDefinition, Class<?> clz, Object bean) {
         PropertyValues propertyValues = beanDefinition.getPropertyValues();
-        if(!propertyValues.isEmpty()) {
+        if(propertyValues != null && !propertyValues.isEmpty()) {
             for(int i = 0; i < propertyValues.size(); i++) {
                 PropertyValue propertyValue = propertyValues.getPropertyValueList().get(i);
                 String pType = propertyValue.getType();
