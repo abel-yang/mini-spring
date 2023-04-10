@@ -60,6 +60,10 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
         return singleton;
     }
 
+    @Override
+    public <T> T getBean(String name, Class<T> requiredType) throws BeansException {
+        return null;
+    }
 
     private void initializeBean(BeanDefinition beanDefinition, Object bean) throws BeansException {
         invokeAwareMethods(beanDefinition.getId(), bean);

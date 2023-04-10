@@ -2,6 +2,7 @@ package com.minis.beans.factory.config;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Map;
 
 /**
  * @author abel
@@ -13,6 +14,11 @@ public class PropertyValues {
 
     public PropertyValues() {
         this.propertyValueList = new ArrayList<>(0);
+    }
+
+    public PropertyValues(Map<String, Object> param) {
+        this.propertyValueList = new ArrayList<>(param.size());
+        param.forEach(this::addPropertyValue);
     }
 
     public List<PropertyValue> getPropertyValueList() {

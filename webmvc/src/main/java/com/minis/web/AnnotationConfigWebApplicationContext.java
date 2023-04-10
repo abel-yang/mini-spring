@@ -6,6 +6,7 @@ import com.minis.beans.factory.annotation.BeanFactoryPostProcessor;
 import com.minis.beans.factory.config.BeanDefinition;
 import com.minis.beans.factory.config.ConfigurableListableBeanFactory;
 import com.minis.beans.factory.support.DefaultListableBeanFactory;
+import com.minis.beans.stereotype.Controller;
 import com.minis.context.*;
 
 import javax.servlet.ServletContext;
@@ -55,6 +56,7 @@ public class AnnotationConfigWebApplicationContext extends AbstractApplicationCo
             e.printStackTrace();
         }
     }
+
 
     private void loaderBeanDefinition(List<String> controllerNames) {
         for(String controller: controllerNames) {
@@ -154,11 +156,24 @@ public class AnnotationConfigWebApplicationContext extends AbstractApplicationCo
         for(File file: dir.listFiles()) {
             if(file.isDirectory()) {
                 scanPackage(packageName + "." + file.getName());
-            } else {
-                String controllerName = packageName + "." + file.getName().replace(".class", "");
+                continue;
+            }
+            String controllerName = packageName + "." + file.getName().replace(".class", "");
+            if(containsController(controllerName)) {
                 tempControllerNames.add(controllerName);
             }
         }
         return tempControllerNames;
+    }
+
+    private boolean containsController(String controllerName) {
+        Class<?> clz;
+        try {
+            clz = Class.forName(controllerName);
+        } catch (ClassNotFoundException e) {
+            e.printStackTrace();
+            return false;
+        }
+        return clz.isAnnotationPresent(Controller.class);
     }
 }

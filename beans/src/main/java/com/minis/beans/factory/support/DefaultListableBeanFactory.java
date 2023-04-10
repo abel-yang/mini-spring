@@ -58,7 +58,10 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
 
     @Override
     public Object getBean(String beanName) throws BeansException {
-        Object result = super.getBean(beanName);
+        Object result = null;
+        if(this.containsBeanDefinition(beanName)) {
+            result = super.getBean(beanName);
+        }
         if(result == null) {
             result = this.parentBeanFactory.getBean(beanName);
         }
