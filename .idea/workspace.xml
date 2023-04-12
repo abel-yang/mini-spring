@@ -45,20 +45,27 @@
       <change afterPath="$PROJECT_DIR$/../common-kit/src/test/groovy/com/tabby/kit/common/SearchTestSpec.groovy" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../common-kit/src/test/java/com/tabby/excel/DemoDataListener.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../common-kit/src/test/java/com/tabby/excel/ReadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/ModelAndView.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/View.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/ViewResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/view/InternalResourceViewResolver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/view/JstlView.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../parking-project/parking-common/src/main/java/com/mall/parking/common/util/RequestIdentifyKit.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../simple/flink-learn/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beans/src/main/resources/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/resources/application-context.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/test/CustomDateEditor.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/test/CustomDateEditor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/WebContent/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/WebContent/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/test/DateInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/test/DateInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/test/HelloWorldBean.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/test/HelloWorldBean.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/test/NameParam.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/test/NameParam.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/DispatcherServlet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/HandlerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/HandlerAdapter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/RequestMappingHandlerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/RequestMappingHandlerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/AnnotationConfigWebApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/context/AnnotationConfigWebApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/ContextLoaderListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/context/ContextLoaderListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/DispatcherServlet.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/DispatcherServlet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/HandlerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/HandlerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/HandlerMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/HandlerMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/HandlerMethod.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/method/HandlerMethod.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/MappingRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/handler/MappingRegistry.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/MethodParameter.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/method/MethodParameter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/RequestMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/bind/annotation/RequestMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/RequestMappingHandlerAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/RequestMappingHandlerAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/RequestMappingHandlerMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/RequestMappingHandlerMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/ResponseBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/bind/annotation/ResponseBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/WebApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/context/WebApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/WebBindingInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/bind/support/WebBindingInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/XmlWebApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/XmlWebApplicationContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -358,7 +365,7 @@
       <workItem from="1680256425470" duration="27675000" />
       <workItem from="1680490397322" duration="899000" />
       <workItem from="1680494054736" duration="59666000" />
-      <workItem from="1681195347614" duration="19146000" />
+      <workItem from="1681195347614" duration="20591000" />
     </task>
     <servers />
   </component>
@@ -402,85 +409,85 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="588" y="328" width="594" height="264" key="Github.ShareDialog/0.23.1440.803@0.23.1440.803" timestamp="1680069107148" />
-    <state width="1165" height="341" key="GridCell.Tab.0.bottom" timestamp="1681271614902">
+    <state width="1165" height="341" key="GridCell.Tab.0.bottom" timestamp="1681279215314">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1681271614902" />
+    <state width="1165" height="341" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1681279215314" />
     <state width="1165" height="262" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1680853204067" />
-    <state width="1165" height="341" key="GridCell.Tab.0.center" timestamp="1681271614901">
+    <state width="1165" height="341" key="GridCell.Tab.0.center" timestamp="1681279215313">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1681271614901" />
+    <state width="1165" height="341" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1681279215313" />
     <state width="1165" height="262" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1680853204066" />
-    <state width="1165" height="341" key="GridCell.Tab.0.left" timestamp="1681271614901">
+    <state width="1165" height="341" key="GridCell.Tab.0.left" timestamp="1681279215312">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1681271614901" />
+    <state width="1165" height="341" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1681279215312" />
     <state width="1165" height="262" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1680853204066" />
-    <state width="1165" height="341" key="GridCell.Tab.0.right" timestamp="1681271614902">
+    <state width="1165" height="341" key="GridCell.Tab.0.right" timestamp="1681279215313">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1681271614902" />
+    <state width="1165" height="341" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1681279215313" />
     <state width="1165" height="262" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1680853204067" />
-    <state width="1165" height="341" key="GridCell.Tab.1.bottom" timestamp="1681271614904">
+    <state width="1165" height="341" key="GridCell.Tab.1.bottom" timestamp="1681279215316">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1681271614904" />
+    <state width="1165" height="341" key="GridCell.Tab.1.bottom/0.23.1440.803@0.23.1440.803" timestamp="1681279215315" />
     <state width="1165" height="262" key="GridCell.Tab.1.bottom/0.23.1440.804@0.23.1440.804" timestamp="1680853204068" />
-    <state width="1165" height="341" key="GridCell.Tab.1.center" timestamp="1681271614903">
+    <state width="1165" height="341" key="GridCell.Tab.1.center" timestamp="1681279215315">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1681271614903" />
+    <state width="1165" height="341" key="GridCell.Tab.1.center/0.23.1440.803@0.23.1440.803" timestamp="1681279215315" />
     <state width="1165" height="262" key="GridCell.Tab.1.center/0.23.1440.804@0.23.1440.804" timestamp="1680853204068" />
-    <state width="1165" height="341" key="GridCell.Tab.1.left" timestamp="1681271614903">
+    <state width="1165" height="341" key="GridCell.Tab.1.left" timestamp="1681279215314">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1681271614903" />
+    <state width="1165" height="341" key="GridCell.Tab.1.left/0.23.1440.803@0.23.1440.803" timestamp="1681279215314" />
     <state width="1165" height="262" key="GridCell.Tab.1.left/0.23.1440.804@0.23.1440.804" timestamp="1680853204067" />
-    <state width="1165" height="341" key="GridCell.Tab.1.right" timestamp="1681271614904">
+    <state width="1165" height="341" key="GridCell.Tab.1.right" timestamp="1681279215315">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1681271614904" />
+    <state width="1165" height="341" key="GridCell.Tab.1.right/0.23.1440.803@0.23.1440.803" timestamp="1681279215315" />
     <state width="1165" height="262" key="GridCell.Tab.1.right/0.23.1440.804@0.23.1440.804" timestamp="1680853204068" />
-    <state width="1165" height="341" key="GridCell.Tab.2.bottom" timestamp="1681271614905">
+    <state width="1165" height="341" key="GridCell.Tab.2.bottom" timestamp="1681279215317">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.2.bottom/0.23.1440.803@0.23.1440.803" timestamp="1681271614905" />
+    <state width="1165" height="341" key="GridCell.Tab.2.bottom/0.23.1440.803@0.23.1440.803" timestamp="1681279215317" />
     <state width="1165" height="262" key="GridCell.Tab.2.bottom/0.23.1440.804@0.23.1440.804" timestamp="1680853204069" />
-    <state width="1165" height="341" key="GridCell.Tab.2.center" timestamp="1681271614905">
+    <state width="1165" height="341" key="GridCell.Tab.2.center" timestamp="1681279215316">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.2.center/0.23.1440.803@0.23.1440.803" timestamp="1681271614905" />
+    <state width="1165" height="341" key="GridCell.Tab.2.center/0.23.1440.803@0.23.1440.803" timestamp="1681279215316" />
     <state width="1165" height="262" key="GridCell.Tab.2.center/0.23.1440.804@0.23.1440.804" timestamp="1680853204069" />
-    <state width="1165" height="341" key="GridCell.Tab.2.left" timestamp="1681271614904">
+    <state width="1165" height="341" key="GridCell.Tab.2.left" timestamp="1681279215316">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.2.left/0.23.1440.803@0.23.1440.803" timestamp="1681271614904" />
+    <state width="1165" height="341" key="GridCell.Tab.2.left/0.23.1440.803@0.23.1440.803" timestamp="1681279215316" />
     <state width="1165" height="262" key="GridCell.Tab.2.left/0.23.1440.804@0.23.1440.804" timestamp="1680853204068" />
-    <state width="1165" height="341" key="GridCell.Tab.2.right" timestamp="1681271614905">
+    <state width="1165" height="341" key="GridCell.Tab.2.right" timestamp="1681279215317">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.2.right/0.23.1440.803@0.23.1440.803" timestamp="1681271614905" />
+    <state width="1165" height="341" key="GridCell.Tab.2.right/0.23.1440.803@0.23.1440.803" timestamp="1681279215317" />
     <state width="1165" height="262" key="GridCell.Tab.2.right/0.23.1440.804@0.23.1440.804" timestamp="1680853204069" />
-    <state width="1165" height="341" key="GridCell.Tab.3.bottom" timestamp="1681271614906">
+    <state width="1165" height="341" key="GridCell.Tab.3.bottom" timestamp="1681279215319">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.3.bottom/0.23.1440.803@0.23.1440.803" timestamp="1681271614906" />
+    <state width="1165" height="341" key="GridCell.Tab.3.bottom/0.23.1440.803@0.23.1440.803" timestamp="1681279215319" />
     <state width="1165" height="262" key="GridCell.Tab.3.bottom/0.23.1440.804@0.23.1440.804" timestamp="1680853204070" />
-    <state width="1165" height="341" key="GridCell.Tab.3.center" timestamp="1681271614906">
+    <state width="1165" height="341" key="GridCell.Tab.3.center" timestamp="1681279215318">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.3.center/0.23.1440.803@0.23.1440.803" timestamp="1681271614906" />
+    <state width="1165" height="341" key="GridCell.Tab.3.center/0.23.1440.803@0.23.1440.803" timestamp="1681279215318" />
     <state width="1165" height="262" key="GridCell.Tab.3.center/0.23.1440.804@0.23.1440.804" timestamp="1680853204070" />
-    <state width="1165" height="341" key="GridCell.Tab.3.left" timestamp="1681271614905">
+    <state width="1165" height="341" key="GridCell.Tab.3.left" timestamp="1681279215318">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.3.left/0.23.1440.803@0.23.1440.803" timestamp="1681271614905" />
+    <state width="1165" height="341" key="GridCell.Tab.3.left/0.23.1440.803@0.23.1440.803" timestamp="1681279215318" />
     <state width="1165" height="262" key="GridCell.Tab.3.left/0.23.1440.804@0.23.1440.804" timestamp="1680853204069" />
-    <state width="1165" height="341" key="GridCell.Tab.3.right" timestamp="1681271614906">
+    <state width="1165" height="341" key="GridCell.Tab.3.right" timestamp="1681279215318">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state width="1165" height="341" key="GridCell.Tab.3.right/0.23.1440.803@0.23.1440.803" timestamp="1681271614906" />
+    <state width="1165" height="341" key="GridCell.Tab.3.right/0.23.1440.803@0.23.1440.803" timestamp="1681279215318" />
     <state width="1165" height="262" key="GridCell.Tab.3.right/0.23.1440.804@0.23.1440.804" timestamp="1680853204070" />
     <state x="208" y="23" key="SettingsEditor" timestamp="1680916100517">
       <screen x="0" y="23" width="1440" height="803" />
@@ -558,14 +565,9 @@
           <option name="timeStamp" value="18" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/RequestMappingHandlerAdapter.java</url>
-          <line>47</line>
+          <url>file://$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/servlet/RequestMappingHandlerAdapter.java</url>
+          <line>49</line>
           <option name="timeStamp" value="37" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/DispatcherServlet.java</url>
-          <line>53</line>
-          <option name="timeStamp" value="44" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/webmvc/src/main/java/com/minis/test/CustomDateEditor.java</url>

@@ -1,4 +1,4 @@
-package com.minis.web;
+package com.minis.web.servlet.handler;
 
 import java.lang.reflect.Method;
 import java.util.ArrayList;

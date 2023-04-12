@@ -31,8 +31,8 @@
         <property type="com.minis.beans.util.ObjectMapper" name="objectMapper" ref="objectMapper" />
     </bean>
 
-    <bean id="requestMappingHandlerAdapter" class="com.minis.web.RequestMappingHandlerAdapter">
-        <property type="com.minis.web.WebBindingInitializer" name="webBindingInitializer" ref="webBindingInitializer" />
+    <bean id="requestMappingHandlerAdapter" class="com.minis.web.servlet.RequestMappingHandlerAdapter">
+        <property type="com.minis.web.bind.support.WebBindingInitializer" name="webBindingInitializer" ref="webBindingInitializer" />
         <property type="com.minis.web.HttpMessageConverter" name="httpMessageConverter" ref="jsonMessageConvert" />
     </bean>
 

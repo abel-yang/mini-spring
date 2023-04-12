@@ -1,8 +1,8 @@
 package com.minis.test;
 
 import com.minis.beans.stereotype.Controller;
-import com.minis.web.RequestMapping;
-import com.minis.web.ResponseBody;
+import com.minis.web.bind.annotation.RequestMapping;
+import com.minis.web.bind.annotation.ResponseBody;
 
 /**
  * @author abel

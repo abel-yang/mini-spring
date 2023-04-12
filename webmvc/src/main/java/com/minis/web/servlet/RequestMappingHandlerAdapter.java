@@ -1,10 +1,14 @@
-package com.minis.web;
+package com.minis.web.servlet;
 
-import com.minis.web.servlet.ModelAndView;
+import com.minis.web.HttpMessageConverter;
+import com.minis.web.bind.annotation.ResponseBody;
+import com.minis.web.WebDataBinder;
+import com.minis.web.WebDataBinderFactory;
+import com.minis.web.bind.support.WebBindingInitializer;
+import com.minis.web.servlet.method.HandlerMethod;
 
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
-import java.io.IOException;
 import java.lang.reflect.Method;
 import java.lang.reflect.Parameter;
 
@@ -13,7 +17,7 @@ import java.lang.reflect.Parameter;
  * @version 1.0
  * @date 2023/4/8 17:02
  */
-public class RequestMappingHandlerAdapter implements HandlerAdapter{
+public class RequestMappingHandlerAdapter implements HandlerAdapter {
     private WebBindingInitializer webBindingInitializer;
     private HttpMessageConverter httpMessageConverter;
 

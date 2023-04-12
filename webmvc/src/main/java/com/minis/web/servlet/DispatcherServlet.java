@@ -1,9 +1,9 @@
-package com.minis.web;
+package com.minis.web.servlet;
 
 import com.minis.beans.BeansException;
-import com.minis.web.servlet.ModelAndView;
-import com.minis.web.servlet.View;
-import com.minis.web.servlet.ViewResolver;
+import com.minis.web.context.AnnotationConfigWebApplicationContext;
+import com.minis.web.context.WebApplicationContext;
+import com.minis.web.servlet.method.HandlerMethod;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;

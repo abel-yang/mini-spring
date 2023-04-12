@@ -1,6 +1,6 @@
 package com.minis.test;
 
-import com.minis.web.WebBindingInitializer;
+import com.minis.web.bind.support.WebBindingInitializer;
 import com.minis.web.WebDataBinder;
 
 import java.util.Date;

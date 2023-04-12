@@ -1,4 +1,6 @@
-package com.minis.web;
+package com.minis.web.servlet;
+
+import com.minis.web.servlet.method.HandlerMethod;
 
 import javax.servlet.http.HttpServletRequest;
 
