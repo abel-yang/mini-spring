@@ -1,5 +1,7 @@
 package com.minis.web;
 
+import com.minis.web.servlet.ModelAndView;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
@@ -18,16 +20,17 @@ public class RequestMappingHandlerAdapter implements HandlerAdapter{
 
 
     @Override
-    public void handle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
-        handleInternal(request, response, (HandlerMethod)handler);
+    public ModelAndView handle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception {
+        return handleInternal(request, response, (HandlerMethod)handler);
     }
 
-    private void handleInternal(HttpServletRequest request, HttpServletResponse response, HandlerMethod handler) throws Exception {
-        invokeHandlerMethod(request, response, handler);
+    private ModelAndView handleInternal(HttpServletRequest request, HttpServletResponse response, HandlerMethod handler) throws Exception {
+        return invokeHandlerMethod(request, response, handler);
     }
 
 
-    protected void invokeHandlerMethod(HttpServletRequest request, HttpServletResponse response, HandlerMethod handlerMethod) throws Exception {
+    protected ModelAndView invokeHandlerMethod(HttpServletRequest request, HttpServletResponse response, HandlerMethod handlerMethod) throws Exception {
+        ModelAndView mav = null;
         WebDataBinderFactory factory = new WebDataBinderFactory();
         Parameter[] methodParams = handlerMethod.getMethod().getParameters();
         Object[] methodParamObjs = new Object[methodParams.length];
@@ -42,15 +45,21 @@ public class RequestMappingHandlerAdapter implements HandlerAdapter{
         Object bean = handlerMethod.getBean();
         Method method = handlerMethod.getMethod();
         Object returnObj = method.invoke(bean, methodParamObjs);
-        if(!(returnObj instanceof String) && handlerMethod.isAnnotationPresent(ResponseBody.class)) {
+        if(handlerMethod.isAnnotationPresent(ResponseBody.class)) {
             httpMessageConverter.write(returnObj, response);
-            return;
         }
-        try {
-            response.getWriter().append(returnObj.toString());
-        } catch (IOException e) {
-            e.printStackTrace();
+        else {
+            //返回前端页面
+            if(returnObj instanceof ModelAndView) {
+                mav = (ModelAndView) returnObj;
+            }
+            else if(returnObj instanceof String) {
+                String targetViewName = (String) returnObj;
+                mav = new ModelAndView();
+                mav.setViewName(targetViewName);
+            }
         }
+        return mav;
     }
 
     public void setWebBindingInitializer(WebBindingInitializer webBindingInitializer) {

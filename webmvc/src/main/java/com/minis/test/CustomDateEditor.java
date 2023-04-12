@@ -4,6 +4,7 @@ import com.minis.beans.PropertyEditor;
 import com.minis.beans.util.StringUtils;
 
 import java.time.LocalDate;
+import java.time.LocalDateTime;
 import java.time.ZoneId;
 import java.time.format.DateTimeFormatter;
 import java.util.Date;
@@ -16,8 +17,10 @@ import java.util.Date;
 public class CustomDateEditor implements PropertyEditor {
     private Date value;
     private Class<Date> clz;
+    private DateTimeFormatter defaultFormatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
     private DateTimeFormatter formatter;
     private boolean allowEmpty;
+    private final static int LOCAL_DATE_LENGTH = 10;
 
     public CustomDateEditor() {
         this(Date.class);
@@ -37,10 +40,17 @@ public class CustomDateEditor implements PropertyEditor {
         this.formatter = DateTimeFormatter.ofPattern(pattern);
     }
 
+
+
     @Override
     public void setAsText(String text) {
         if(this.allowEmpty && !StringUtils.hasText(text)) {
             setValue(null);
+            return;
+        }
+        if(text.length() > LOCAL_DATE_LENGTH) {
+            LocalDateTime dateTime = LocalDateTime.parse(text, defaultFormatter);
+            setValue(Date.from(dateTime.toLocalDate().atStartOfDay(ZoneId.systemDefault()).toInstant()));
             return;
         }
         LocalDate localDate = LocalDate.parse(text, formatter);

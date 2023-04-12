@@ -1,6 +1,9 @@
 package com.minis.web;
 
 import com.minis.beans.BeansException;
+import com.minis.web.servlet.ModelAndView;
+import com.minis.web.servlet.View;
+import com.minis.web.servlet.ViewResolver;
 
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
@@ -8,6 +11,7 @@ import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import java.io.IOException;
+import java.util.Map;
 
 /**
  * @author abel
@@ -20,6 +24,7 @@ public class DispatcherServlet extends HttpServlet {
     private WebApplicationContext parentApplicationContext;
     private HandlerMapping handlerMapping;
     private HandlerAdapter handlerAdapter;
+    private ViewResolver viewResolver;
 
     @Override
     public void init(ServletConfig config) throws ServletException {
@@ -33,6 +38,15 @@ public class DispatcherServlet extends HttpServlet {
     private void refresh() {
         initHandlerMappings(this.webApplicationContext);
         initHandlerAdapter(this.webApplicationContext);
+        initViewResolver(this.webApplicationContext);
+    }
+
+    private void initViewResolver(WebApplicationContext webApplicationContext) {
+        try {
+            this.viewResolver = (ViewResolver) webApplicationContext.getBean("viewResolver");
+        } catch (BeansException e) {
+            e.printStackTrace();
+        }
     }
 
     private void initHandlerAdapter(WebApplicationContext wac) {
@@ -65,9 +79,18 @@ public class DispatcherServlet extends HttpServlet {
     private void doDispatch(HttpServletRequest req, HttpServletResponse resp) throws Exception {
         HandlerMethod handlerMethod = this.handlerMapping.getHandler(req);
         if(handlerMethod == null) {
-            return;
+            throw new IllegalArgumentException("未匹配到URL对应HandlerMethod");
         }
         HandlerAdapter ha = this.handlerAdapter;
-        ha.handle(req, resp, handlerMethod);
+        ModelAndView mv = ha.handle(req, resp, handlerMethod);
+        render(req, resp, mv);
     }
+
+    private void render(HttpServletRequest request, HttpServletResponse response, ModelAndView mv) throws Exception {
+        //获取model，写到request的Attribute中：
+        Map<String, Object> modelMap = mv.getModel();
+        View view = viewResolver.resolverViewName(mv.getViewName());
+        view.render(modelMap, request, response);
+    }
+
 }

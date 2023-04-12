@@ -13,8 +13,8 @@ import com.minis.web.ResponseBody;
 public class HelloWorldBean {
     @ResponseBody
     @RequestMapping("/test")
-    public String doGet(NameParam param) {
-        return param.getName() + " hello world!";
+    public NameParam doGet(NameParam param) {
+        return param;
     }
     public String doPost() {
         return "hello world!";

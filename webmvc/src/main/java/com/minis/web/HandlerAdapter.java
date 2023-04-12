@@ -1,5 +1,7 @@
 package com.minis.web;
 
+import com.minis.web.servlet.ModelAndView;
+
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
@@ -10,5 +12,5 @@ import javax.servlet.http.HttpServletResponse;
  */
 public interface HandlerAdapter {
 
-    void handle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception;
+    ModelAndView handle(HttpServletRequest request, HttpServletResponse response, Object handler) throws Exception;
 }
