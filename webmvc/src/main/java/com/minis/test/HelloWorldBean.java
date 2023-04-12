@@ -2,6 +2,7 @@ package com.minis.test;
 
 import com.minis.beans.stereotype.Controller;
 import com.minis.web.RequestMapping;
+import com.minis.web.ResponseBody;
 
 /**
  * @author abel
@@ -10,9 +11,10 @@ import com.minis.web.RequestMapping;
  */
 @Controller
 public class HelloWorldBean {
+    @ResponseBody
     @RequestMapping("/test")
-    public String doGet() {
-        return "hello world!";
+    public String doGet(NameParam param) {
+        return param.getName() + " hello world!";
     }
     public String doPost() {
         return "hello world!";

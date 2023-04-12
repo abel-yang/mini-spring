@@ -21,5 +21,19 @@
     </bean>
 
 
-    <bean id="webBindingInitializer" class="com.minis.test.DateInitializer">    </bean>
+    <bean id="webBindingInitializer" class="com.minis.test.DateInitializer" />
+
+    <bean id="objectMapper" class="com.minis.web.DefaultObjectMapper" >
+        <property type="String" name="dateFormat" value="yyyy/MM/dd"/>
+        <property type="String" name="dateFormat" value="yyyy/MM/dd"/>
+    </bean>
+    <bean id="jsonMessageConvert" class="com.minis.web.DefaultHttpMessageConverter">
+        <property type="com.minis.beans.util.ObjectMapper" name="objectMapper" ref="objectMapper" />
+    </bean>
+
+    <bean id="requestMappingHandlerAdapter" class="com.minis.web.RequestMappingHandlerAdapter">
+        <property type="com.minis.web.WebBindingInitializer" name="webBindingInitializer" ref="webBindingInitializer" />
+        <property type="com.minis.web.HttpMessageConverter" name="httpMessageConverter" ref="jsonMessageConvert" />
+    </bean>
+
 </beans>

@@ -1,5 +1,6 @@
 package com.minis.web;
 
+import com.minis.beans.AbstractPropertyAccessor;
 import com.minis.beans.BeanWrapperImpl;
 import com.minis.beans.PropertyEditor;
 import com.minis.beans.factory.config.PropertyValues;
@@ -16,6 +17,7 @@ public class WebDataBinder {
     private Object target;
     private Class<?> clz;
     private String objectName;
+    private AbstractPropertyAccessor propertyAccessor;
 
     public WebDataBinder(Object target) {
         this(target, "");
@@ -25,11 +27,15 @@ public class WebDataBinder {
         this.target = target;
         this.objectName = objectName;
         this.clz = target.getClass();
+        this.propertyAccessor = new BeanWrapperImpl(this.target);
     }
 
 
     public void bind(HttpServletRequest request) {
         PropertyValues pvs = assignParameter(request);
+        if(pvs.isEmpty()) {
+            throw new IllegalArgumentException("未找到对应参数");
+        }
         addBindValues(pvs, request);
         doBind(pvs);
     }
@@ -39,16 +45,12 @@ public class WebDataBinder {
     }
 
     protected void applyPropertyValues(PropertyValues pvs) {
-        getPropertyAccessor().setPropertyValues(pvs);
+        this.propertyAccessor.setPropertyValues(pvs);
     }
 
 
     public void registerCustomEditor(Class<?> requiredType, PropertyEditor propertyEditor) {
-        getPropertyAccessor().registerCustomEditor(requiredType, propertyEditor);
-    }
-
-    protected BeanWrapperImpl getPropertyAccessor() {
-        return new BeanWrapperImpl(this.target);
+        this.propertyAccessor.registerCustomEditor(requiredType, propertyEditor);
     }
 
     protected void addBindValues(PropertyValues pvs, HttpServletRequest request) {

@@ -1,5 +1,6 @@
 package com.minis.web;
 
+import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 
 /**
@@ -34,5 +35,9 @@ public class HandlerMethod {
 
     public void setBean(Object bean) {
         this.bean = bean;
+    }
+
+    public boolean isAnnotationPresent(Class<? extends Annotation> annotationClass) {
+        return method.isAnnotationPresent(annotationClass);
     }
 }

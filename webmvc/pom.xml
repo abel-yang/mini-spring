@@ -51,6 +51,8 @@
             <scope>provided</scope>
         </dependency>
 
+
+
         <dependency>
             <groupId>org.minis</groupId>
             <artifactId>minis-beans</artifactId>

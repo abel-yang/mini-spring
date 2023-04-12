@@ -1,5 +1,7 @@
 package com.minis.web;
 
+import com.minis.beans.BeansException;
+
 import javax.servlet.ServletConfig;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
@@ -16,8 +18,8 @@ public class DispatcherServlet extends HttpServlet {
     private static final String WEB_APPLICATION_CONTEXT_ATTRIBUTE = DispatcherServlet.class.getName() + ".CONTEXT";
     private WebApplicationContext webApplicationContext;
     private WebApplicationContext parentApplicationContext;
-    private RequestMappingHandlerMapping handlerMapping;
-    private RequestMappingHandlerAdapter handlerAdapter;
+    private HandlerMapping handlerMapping;
+    private HandlerAdapter handlerAdapter;
 
     @Override
     public void init(ServletConfig config) throws ServletException {
@@ -33,8 +35,12 @@ public class DispatcherServlet extends HttpServlet {
         initHandlerAdapter(this.webApplicationContext);
     }
 
-    private void initHandlerAdapter(WebApplicationContext webApplicationContext) {
-        this.handlerAdapter = new RequestMappingHandlerAdapter(webApplicationContext);
+    private void initHandlerAdapter(WebApplicationContext wac) {
+        try {
+            this.handlerAdapter = (HandlerAdapter)wac.getBean("requestMappingHandlerAdapter");
+        } catch (BeansException e) {
+            e.printStackTrace();
+        }
     }
 
     private void initHandlerMappings(WebApplicationContext webApplicationContext) {

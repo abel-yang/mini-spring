@@ -1,10 +1,8 @@
 package com.minis.beans;
 
 import com.minis.beans.factory.config.PropertyValue;
-import com.minis.beans.factory.config.PropertyValues;
 
 import java.lang.reflect.Field;
-import java.lang.reflect.InvocationTargetException;
 import java.lang.reflect.Method;
 
 /**
@@ -12,16 +10,13 @@ import java.lang.reflect.Method;
  * @version 1.0
  * @date 2023/4/9 10:05
  */
-public class BeanWrapperImpl extends PropertyEditorRegistrySupport{
+public class BeanWrapperImpl extends AbstractPropertyAccessor{
     /**
      * 目标对象
      */
     private Object wrappedObject;
     private Class<?> clz;
-    /**
-     * 参数值
-     */
-    private PropertyValues pvs;
+
 
     public BeanWrapperImpl(Object wrappedObject) {
         //不同数据类型的参数转换器editor
@@ -30,18 +25,8 @@ public class BeanWrapperImpl extends PropertyEditorRegistrySupport{
         this.clz = wrappedObject.getClass();
     }
 
-    /**
-     * 绑定参数值
-     *
-      * @param pvs
-     */
-    public void setPropertyValues(PropertyValues pvs) {
-        this.pvs = pvs;
-        for (PropertyValue pv : this.pvs.getPropertyValues()) {
-            setPropertyValue(pv);
-        }
-    }
 
+    @Override
     public void setPropertyValue(PropertyValue pv) {
         //拿到参数处理器
         BeanPropertyHandler propertyHandler = new BeanPropertyHandler(pv.getName());
@@ -68,10 +53,9 @@ public class BeanWrapperImpl extends PropertyEditorRegistrySupport{
                 Field field = clz.getDeclaredField(propertyName);
                 propertyClz = field.getType();
                 //获取属性方法
-                this.writeMethod = clz.getDeclaredMethod("set" + propertyName.substring(0, 1).toUpperCase() +
-                        propertyName.substring(1), propertyClz);
-                this.readMethod = clz.getDeclaredMethod("get" + propertyName.substring(0, 1).toUpperCase() +
-                        propertyName.substring(1), propertyClz);
+                String upperName = propertyName.substring(0, 1).toUpperCase() + propertyName.substring(1);
+                this.writeMethod = clz.getDeclaredMethod("set" + upperName, propertyClz);
+                this.readMethod = clz.getDeclaredMethod("get" + upperName);
             } catch (NoSuchFieldException | NoSuchMethodException e) {
                 e.printStackTrace();
             }
