@@ -8,7 +8,9 @@
         <outputRelativeToContentRoot value="true" />
         <module name="beans" />
         <module name="minis-beans" />
+        <module name="jdbc" />
         <module name="webmvc" />
+        <module name="demo" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="8" />

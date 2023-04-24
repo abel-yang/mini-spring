@@ -35,6 +35,7 @@ public class ClassPathXmlResource implements Resource {
             this.rootElement = document.getRootElement();
             this.elementIterator = this.rootElement.elementIterator();
         } catch (DocumentException e) {
+            e.printStackTrace();
             throw new BeansException("读取配置信息出错: " + path);
         }
     }

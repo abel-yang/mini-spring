@@ -10,6 +10,8 @@
     <modules>
         <module>beans</module>
         <module>webmvc</module>
+        <module>jdbc</module>
+        <module>demo</module>
     </modules>
     <packaging>pom</packaging>
 
