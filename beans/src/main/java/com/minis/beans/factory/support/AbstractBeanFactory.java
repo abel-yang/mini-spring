@@ -3,6 +3,7 @@ package com.minis.beans.factory.support;
 import com.minis.beans.BeansException;
 import com.minis.beans.factory.Aware;
 import com.minis.beans.factory.BeanFactoryAware;
+import com.minis.beans.factory.FactoryBean;
 import com.minis.beans.factory.config.*;
 
 import java.lang.reflect.Constructor;
@@ -18,7 +19,7 @@ import java.util.concurrent.ConcurrentHashMap;
  * @version 1.0
  * @date 2023/4/1 14:25
  */
-public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry implements ConfigurableBeanFactory, BeanDefinitionRegistry {
+public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport implements ConfigurableBeanFactory, BeanDefinitionRegistry {
     protected final Map<String, BeanDefinition> beanDefinitionMap = new ConcurrentHashMap<>(256);
     protected final List<String> beanDefinitionNames = new ArrayList<>();
     private final Map<String, Object> earlySingletonObjects = new ConcurrentHashMap<>(32);
@@ -57,7 +58,20 @@ public abstract class AbstractBeanFactory extends DefaultSingletonBeanRegistry i
             }
 
         }
+
+        if(singleton instanceof FactoryBean) {
+            return this.getObjectForBeanInstance(singleton, beanName);
+        }
         return singleton;
+    }
+
+    private Object getObjectForBeanInstance(Object singleton, String beanName) {
+        if(!(singleton instanceof FactoryBean)) {
+            return singleton;
+        }
+
+        FactoryBean<?> factoryBean = (FactoryBean<?>)singleton;
+        return this.getObjectForFactoryBean(factoryBean, beanName);
     }
 
     @Override

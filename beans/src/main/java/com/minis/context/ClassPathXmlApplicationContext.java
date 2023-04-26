@@ -2,7 +2,7 @@ package com.minis.context;
 
 import com.minis.beans.BeansException;
 import com.minis.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor;
-import com.minis.beans.factory.annotation.BeanFactoryPostProcessor;
+import com.minis.beans.factory.config.BeanFactoryPostProcessor;
 import com.minis.beans.factory.config.ConfigurableListableBeanFactory;
 import com.minis.beans.factory.support.DefaultListableBeanFactory;
 import com.minis.beans.factory.xml.XmlBeanDefinitionReader;

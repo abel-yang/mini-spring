@@ -1,7 +1,6 @@
 package com.minis.beans.factory.config;
 
 import com.minis.beans.factory.BeanFactory;
-import com.minis.beans.factory.annotation.BeanPostProcessor;
 
 /**
  * @author abel

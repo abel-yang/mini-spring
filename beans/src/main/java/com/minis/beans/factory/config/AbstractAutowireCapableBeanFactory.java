@@ -1,7 +1,6 @@
 package com.minis.beans.factory.config;
 
 import com.minis.beans.BeansException;
-import com.minis.beans.factory.annotation.BeanPostProcessor;
 import com.minis.beans.factory.support.AbstractBeanFactory;
 
 import java.util.ArrayList;

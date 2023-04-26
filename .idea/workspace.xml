@@ -45,42 +45,40 @@
       <change afterPath="$PROJECT_DIR$/../common-kit/src/test/groovy/com/tabby/kit/common/SearchTestSpec.groovy" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../common-kit/src/test/java/com/tabby/excel/DemoDataListener.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../common-kit/src/test/java/com/tabby/excel/ReadTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/util/Assert.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/lang/Nullable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/minis/test/jdbc/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/minis/test/jdbc/UserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/application-context.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/demo/src/main/resources/mapper/UserMapper.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/jdbc/core/ArgumentPreparedStatementSetter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/jdbc/core/JdbcTemplate.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/jdbc/core/PreparedStatementCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/jdbc/core/ResultSetExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/jdbc/core/RowMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/jdbc/core/RowMapperResultSetExtractor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/jdbc/core/StatementCallback.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/jdbc/datasource/SingleConnectionDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/jdbc/datasource/pool/PooledConnection.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/jdbc/datasource/pool/PooledDataSource.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/mbatis/DefaultSqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/mbatis/DefaultSqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/mbatis/MapperNode.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/mbatis/SqlSession.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/mbatis/SqlSessionFactory.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/jdbc/src/main/java/com/minis/mbatis/SqlXmlReader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/aop/AopProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/aop/AopProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/aop/DefaultAopProxyFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/aop/JdkDynamicAopProxy.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/aop/ProxyFactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/FactoryBean.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/support/FactoryBeanRegistrySupport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/env/ConfigurableEnvironment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/env/EnumerablePropertySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/env/MapPropertySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/env/MutablePropertySources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/env/PropertiesPropertySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/env/PropertySource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/env/PropertySources.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/io/EncodedResource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/io/InputStreamSource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/io/Resource.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/minis/test/aop/Action.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/minis/test/aop/ActionB.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/demo/src/main/java/com/minis/test/aop/ActionTest.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../parking-project/parking-common/src/main/java/com/mall/parking/common/util/RequestIdentifyKit.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../simple/flink-learn/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/annotation/AutowiredAnnotationBeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/annotation/BeanFactoryPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/config/BeanFactoryPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/annotation/BeanPostProcessor.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/config/BeanPostProcessor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/config/AbstractAutowireCapableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/config/AbstractAutowireCapableBeanFactory.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/config/ConfigurableBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/config/ConfigurableBeanFactory.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/support/AbstractBeanFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/support/AbstractBeanFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/xml/XmlBeanDefinitionReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/beans/factory/xml/XmlBeanDefinitionReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/ClassPathXmlResource.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/ClassPathXmlResource.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/test/AService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/minis/test/beans/AService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/test/AServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/minis/test/beans/AServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/test/BaseBaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/minis/test/beans/BaseBaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/test/BaseService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/minis/test/beans/BaseService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/test/CService.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/minis/test/beans/CService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/src/main/resources/application-context.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/beans/src/test/java/com/minis/test/Test1.java" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/java/com/minis/test/jdbc/UserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/context/AbstractApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/context/AbstractApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/context/ApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/context/ApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/context/ClassPathXmlApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/context/ClassPathXmlApplicationContext.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/env/PropertyResolver.java" beforeDir="false" afterPath="$PROJECT_DIR$/beans/src/main/java/com/minis/core/env/PropertyResolver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/demo/src/main/resources/application-context.xml" beforeDir="false" afterPath="$PROJECT_DIR$/demo/src/main/resources/application-context.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/context/AnnotationConfigWebApplicationContext.java" beforeDir="false" afterPath="$PROJECT_DIR$/webmvc/src/main/java/com/minis/web/context/AnnotationConfigWebApplicationContext.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,9 +92,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="AnnotationType" />
         <option value="Interface" />
         <option value="Class" />
-        <option value="AnnotationType" />
       </list>
     </option>
   </component>
@@ -137,19 +135,36 @@
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
-    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/demo/src/main/resources" />
       <recent name="$PROJECT_DIR$/demo/src/main/java/com/minis/jdbc/test" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.minis.test.jdbc" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/jdbc/src/main/resources" />
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.UserTest">
+  <component name="RunManager" selected="Application.ActionTest">
+    <configuration name="ActionTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.minis.test.aop.ActionTest" />
+      <module name="demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.minis.test.aop.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SqlXmlReader" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.minis.mbatis.SqlXmlReader" />
       <module name="jdbc" />
@@ -360,9 +375,11 @@
       <item itemvalue="Tomcat Server.mvc" />
       <item itemvalue="Application.UserTest" />
       <item itemvalue="Application.SqlXmlReader" />
+      <item itemvalue="Application.ActionTest" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.ActionTest" />
         <item itemvalue="Application.UserTest" />
         <item itemvalue="Application.SqlXmlReader" />
       </list>
@@ -385,7 +402,7 @@
       <workItem from="1680256425470" duration="27675000" />
       <workItem from="1680490397322" duration="899000" />
       <workItem from="1680494054736" duration="59666000" />
-      <workItem from="1681195347614" duration="66931000" />
+      <workItem from="1681195347614" duration="90191000" />
     </task>
     <servers />
   </component>
@@ -409,10 +426,10 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="184" y="86" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.23.1440.803@0.23.1440.803" timestamp="1681439730455" />
-    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1682131423887">
+    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser" timestamp="1682513757664">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1682131423887" />
+    <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.803@0.23.1440.803" timestamp="1682513757664" />
     <state x="533" y="147" key="#com.intellij.ide.util.MemberChooser/0.23.1440.806@0.23.1440.806" timestamp="1681783468553" />
     <state x="444" y="70" width="977" height="708" key="#com.intellij.j2ee.appServerIntegrations.ApplicationServersConfigurable" timestamp="1680916661271">
       <screen x="0" y="23" width="1440" height="803" />
@@ -438,32 +455,32 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="588" y="328" width="594" height="264" key="Github.ShareDialog/0.23.1440.803@0.23.1440.803" timestamp="1680069107148" />
-    <state width="1398" height="338" key="GridCell.Tab.0.bottom" timestamp="1682301110782">
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom" timestamp="1682301640524">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1238" height="247" key="GridCell.Tab.0.bottom/0.23.1280.628@0.23.1280.628" timestamp="1682142244011" />
-    <state width="1398" height="338" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1682301110782" />
+    <state width="1398" height="285" key="GridCell.Tab.0.bottom/0.23.1440.803@0.23.1440.803" timestamp="1682301640524" />
     <state width="1165" height="262" key="GridCell.Tab.0.bottom/0.23.1440.804@0.23.1440.804" timestamp="1680853204067" />
     <state width="1398" height="150" key="GridCell.Tab.0.bottom/0.23.1440.808@0.23.1440.808" timestamp="1681779743517" />
-    <state width="1398" height="338" key="GridCell.Tab.0.center" timestamp="1682301110781">
+    <state width="1398" height="285" key="GridCell.Tab.0.center" timestamp="1682301640523">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1238" height="247" key="GridCell.Tab.0.center/0.23.1280.628@0.23.1280.628" timestamp="1682142244010" />
-    <state width="1398" height="338" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1682301110781" />
+    <state width="1398" height="285" key="GridCell.Tab.0.center/0.23.1440.803@0.23.1440.803" timestamp="1682301640523" />
     <state width="1165" height="262" key="GridCell.Tab.0.center/0.23.1440.804@0.23.1440.804" timestamp="1680853204066" />
     <state width="1398" height="150" key="GridCell.Tab.0.center/0.23.1440.808@0.23.1440.808" timestamp="1681779743516" />
-    <state width="1398" height="338" key="GridCell.Tab.0.left" timestamp="1682301110781">
+    <state width="1398" height="285" key="GridCell.Tab.0.left" timestamp="1682301640523">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1238" height="247" key="GridCell.Tab.0.left/0.23.1280.628@0.23.1280.628" timestamp="1682142244009" />
-    <state width="1398" height="338" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1682301110781" />
+    <state width="1398" height="285" key="GridCell.Tab.0.left/0.23.1440.803@0.23.1440.803" timestamp="1682301640523" />
     <state width="1165" height="262" key="GridCell.Tab.0.left/0.23.1440.804@0.23.1440.804" timestamp="1680853204066" />
     <state width="1398" height="150" key="GridCell.Tab.0.left/0.23.1440.808@0.23.1440.808" timestamp="1681779743515" />
-    <state width="1398" height="338" key="GridCell.Tab.0.right" timestamp="1682301110782">
+    <state width="1398" height="285" key="GridCell.Tab.0.right" timestamp="1682301640524">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state width="1238" height="247" key="GridCell.Tab.0.right/0.23.1280.628@0.23.1280.628" timestamp="1682142244010" />
-    <state width="1398" height="338" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1682301110782" />
+    <state width="1398" height="285" key="GridCell.Tab.0.right/0.23.1440.803@0.23.1440.803" timestamp="1682301640524" />
     <state width="1165" height="262" key="GridCell.Tab.0.right/0.23.1440.804@0.23.1440.804" timestamp="1680853204067" />
     <state width="1398" height="150" key="GridCell.Tab.0.right/0.23.1440.808@0.23.1440.808" timestamp="1681779743517" />
     <state width="1398" height="338" key="GridCell.Tab.1.bottom" timestamp="1682301110783">
@@ -530,10 +547,10 @@
     </state>
     <state width="1165" height="341" key="GridCell.Tab.3.right/0.23.1440.803@0.23.1440.803" timestamp="1681283754812" />
     <state width="1165" height="262" key="GridCell.Tab.3.right/0.23.1440.804@0.23.1440.804" timestamp="1680853204070" />
-    <state x="208" y="23" key="SettingsEditor" timestamp="1682063586700">
+    <state x="208" y="23" key="SettingsEditor" timestamp="1682497916303">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="208" y="23" key="SettingsEditor/0.23.1440.803@0.23.1440.803" timestamp="1682063586700" />
+    <state x="208" y="23" key="SettingsEditor/0.23.1440.803@0.23.1440.803" timestamp="1682497916303" />
     <state x="450" y="163" width="540" height="524" key="StructurePopup" timestamp="1682060971888">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
@@ -558,20 +575,20 @@
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="458" y="169" key="extract.method.dialog/0.23.1440.803@0.23.1440.803" timestamp="1680256626986" />
-    <state x="420" y="181" width="601" height="514" key="find.popup" timestamp="1682133908391">
+    <state x="420" y="181" width="601" height="514" key="find.popup" timestamp="1682321644276">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
-    <state x="420" y="181" width="601" height="514" key="find.popup/0.23.1440.803@0.23.1440.803" timestamp="1682133908391" />
+    <state x="420" y="181" width="601" height="514" key="find.popup/0.23.1440.803@0.23.1440.803" timestamp="1682321644276" />
     <state x="68" y="23" key="new project wizard" timestamp="1682142447681">
       <screen x="0" y="23" width="1280" height="628" />
     </state>
     <state x="68" y="23" key="new project wizard/0.23.1280.628@0.23.1280.628" timestamp="1682142447681" />
     <state x="114" y="87" key="new project wizard/0.23.1440.803@0.23.1440.803" timestamp="1681439262175" />
-    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1682299849146">
+    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup" timestamp="1682513364452">
       <screen x="0" y="23" width="1440" height="803" />
     </state>
     <state x="342" y="122" width="670" height="529" key="search.everywhere.popup/0.23.1280.628@0.23.1280.628" timestamp="1682143753540" />
-    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1682299849146" />
+    <state x="385" y="150" width="670" height="676" key="search.everywhere.popup/0.23.1440.803@0.23.1440.803" timestamp="1682513364452" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

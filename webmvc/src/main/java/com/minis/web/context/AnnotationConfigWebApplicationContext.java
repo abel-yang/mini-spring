@@ -2,14 +2,13 @@ package com.minis.web.context;
 
 import com.minis.beans.BeansException;
 import com.minis.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor;
-import com.minis.beans.factory.annotation.BeanFactoryPostProcessor;
+import com.minis.beans.factory.config.BeanFactoryPostProcessor;
 import com.minis.beans.factory.config.BeanDefinition;
 import com.minis.beans.factory.config.ConfigurableListableBeanFactory;
 import com.minis.beans.factory.support.DefaultListableBeanFactory;
 import com.minis.beans.stereotype.Controller;
 import com.minis.context.*;
 import com.minis.web.XmlScanComponentHelper;
-import com.minis.web.context.WebApplicationContext;
 
 import javax.servlet.ServletContext;
 import java.io.File;

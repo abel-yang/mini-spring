@@ -1,10 +1,9 @@
 package com.minis.beans.factory.annotation;
 
 import com.minis.beans.BeansException;
-import com.minis.beans.factory.Aware;
 import com.minis.beans.factory.BeanFactory;
 import com.minis.beans.factory.BeanFactoryAware;
-import com.minis.beans.factory.config.AbstractAutowireCapableBeanFactory;
+import com.minis.beans.factory.config.BeanPostProcessor;
 import com.minis.beans.factory.config.ConfigurableListableBeanFactory;
 
 import java.lang.reflect.Field;
