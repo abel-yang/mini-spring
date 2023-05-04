@@ -7,7 +7,7 @@ import com.minis.beans.BeansException;
  * @version 1.0
  * @date 2023/4/3 09:34
  */
-public interface BeanFactoryAware {
+public interface BeanFactoryAware extends Aware{
 
     /**
      * Callback that supplies the owning factory to a bean instance.

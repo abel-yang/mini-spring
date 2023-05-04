@@ -9,6 +9,6 @@ public class ActionB implements Action{
 
     @Override
     public void doAction() {
-        System.out.println("bbbbbbbb");
+        System.out.println("something do ......");
     }
 }

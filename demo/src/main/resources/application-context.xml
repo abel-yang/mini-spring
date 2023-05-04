@@ -48,29 +48,35 @@
 
 
 
-    <bean id="userService" class="com.minis.test.jdbc.UserService" />
+<!--    <bean id="userService" class="com.minis.test.jdbc.UserService" />-->
 
-    <bean id="dataSource" class="com.minis.jdbc.datasource.pool.PooledDataSource" init-method="init">
-        <property type="String" name="driverClassName" value="org.postgresql.Driver"/>
-        <property type="String" name="url" value="jdbc:postgresql://10.10.104.52:54321/workbench?currentSchema=public"/>
-        <property type="String" name="username" value="workbench"/>
-        <property type="String" name="password" value="workbench"/>
-        <property type="int" name="initialSize" value="3"/>
-    </bean>
-    <bean id="jdbcTemplate" class="com.minis.jdbc.core.JdbcTemplate" >
-        <property type="javax.sql.DataSource" name="dataSource" ref="dataSource"/>
-    </bean>
-
-
-
-    <bean id="sqlSessionFactory" class="com.minis.mbatis.DefaultSqlSessionFactory" init-method="init">
-        <property type="String" name="mapperLocations" value="mapper"></property>
-    </bean>
+<!--    <bean id="dataSource" class="com.minis.jdbc.datasource.pool.PooledDataSource" init-method="init">-->
+<!--        <property type="String" name="driverClassName" value="org.postgresql.Driver"/>-->
+<!--        <property type="String" name="url" value="jdbc:postgresql://10.10.104.52:54321/workbench?currentSchema=public"/>-->
+<!--        <property type="String" name="username" value="workbench"/>-->
+<!--        <property type="String" name="password" value="workbench"/>-->
+<!--        <property type="int" name="initialSize" value="3"/>-->
+<!--    </bean>-->
+<!--    <bean id="jdbcTemplate" class="com.minis.jdbc.core.JdbcTemplate" >-->
+<!--        <property type="javax.sql.DataSource" name="dataSource" ref="dataSource"/>-->
+<!--    </bean>-->
 
 
 
+<!--    <bean id="sqlSessionFactory" class="com.minis.mbatis.DefaultSqlSessionFactory" init-method="init">-->
+<!--        <property type="String" name="mapperLocations" value="mapper"></property>-->
+<!--    </bean>-->
+
+
+    <bean id="myInterceptor" class="com.minis.test.aop.TracingInterceptor" />
+    <bean id="myBeforeAdvice" class="com.minis.test.aop.MyBeforeAdvice" />
     <bean id="realaction" class="com.minis.test.aop.ActionB" />
     <bean id="action" class="com.minis.aop.ProxyFactoryBean" >
         <property type="java.lang.Object" name="target" ref="realaction"/>
+        <property type="String" name="interceptorName" value="myBeforeAdvice"/>
     </bean>
+
+
+
+
 </beans>
