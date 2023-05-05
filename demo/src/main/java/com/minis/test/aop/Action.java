@@ -8,4 +8,6 @@ package com.minis.test.aop;
 public interface Action {
 
     void doAction();
+
+    void print();
 }

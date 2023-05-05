@@ -11,4 +11,9 @@ public class ActionB implements Action{
     public void doAction() {
         System.out.println("something do ......");
     }
+
+    @Override
+    public void print() {
+        System.out.println("print ..........");
+    }
 }

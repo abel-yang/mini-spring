@@ -13,7 +13,7 @@ public class ActionTest {
         ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext("application-context.xml");
         ctx.refresh();
         Action action = (Action) ctx.getBean("action");
-        action.doAction();
+        action.print();
 
     }
 }
