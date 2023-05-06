@@ -54,7 +54,7 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
                 //注册bean实例
                 this.registerBean(beanName, singleton);
                 //初始化
-                initializeBean(beanDefinition, singleton);
+                singleton = initializeBean(beanDefinition, singleton);
             }
 
         }
@@ -79,18 +79,21 @@ public abstract class AbstractBeanFactory extends FactoryBeanRegistrySupport imp
         return null;
     }
 
-    private void initializeBean(BeanDefinition beanDefinition, Object bean) throws BeansException {
+    private Object initializeBean(BeanDefinition beanDefinition, Object bean) throws BeansException {
         invokeAwareMethods(beanDefinition.getId(), bean);
         // 进行beanPostprocessor处理
         // step 1: before
-        applyBeanPostProcessorBeforeInitialization(bean, beanDefinition.getId());
+        Object wrappedBean = bean;
+
+        wrappedBean = applyBeanPostProcessorBeforeInitialization(wrappedBean, beanDefinition.getId());
         //step 2: init method
         if(beanDefinition.getInitMethodName() != null && !beanDefinition.getInitMethodName().equals("")) {
-            invokeInitMethod(beanDefinition, bean);
+            invokeInitMethod(beanDefinition, wrappedBean);
         }
         //step 3: after
-        applyBeanPostProcessorAfterInitialization(bean, beanDefinition.getId());
+        wrappedBean = applyBeanPostProcessorAfterInitialization(wrappedBean, beanDefinition.getId());
 
+        return wrappedBean;
     }
 
     private void invokeInitMethod(BeanDefinition beanDefinition, Object obj) {

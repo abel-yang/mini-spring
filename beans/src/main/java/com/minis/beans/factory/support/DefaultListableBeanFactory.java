@@ -62,7 +62,7 @@ public class DefaultListableBeanFactory extends AbstractAutowireCapableBeanFacto
         if(this.containsBeanDefinition(beanName)) {
             result = super.getBean(beanName);
         }
-        if(result == null) {
+        if(result == null && this.parentBeanFactory != null) {
             result = this.parentBeanFactory.getBean(beanName);
         }
         return result;

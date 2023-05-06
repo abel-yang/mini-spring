@@ -84,6 +84,7 @@ public class ClassPathXmlApplicationContext extends AbstractApplicationContext{
     protected void registerBeanPostProcessors(ConfigurableListableBeanFactory beanFactory) {
         AutowiredAnnotationBeanPostProcessor beanPostProcessor = new AutowiredAnnotationBeanPostProcessor();
         beanPostProcessor.setBeanFactory(beanFactory);
+
         beanFactory.addBeanPostProcessor(beanPostProcessor);
     }
 

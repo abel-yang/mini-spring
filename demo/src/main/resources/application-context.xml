@@ -70,15 +70,22 @@
 
     <bean id="myInterceptor" class="com.minis.test.aop.TracingInterceptor" />
     <bean id="beforeAdvice" class="com.minis.test.aop.MyBeforeAdvice" />
-    <bean id="realaction" class="com.minis.test.aop.ActionB" />
+    <bean id="action" class="com.minis.test.aop.ActionB" />
 
     <bean id="advisor" class="com.minis.aop.NameMatchMethodPointcutAdvisor">
         <property type="com.minis.aop.Advice" name="advice" ref="beforeAdvice"/>
         <property type="String" name="mappedName" value="do*"/>
     </bean>
-    <bean id="action" class="com.minis.aop.ProxyFactoryBean" >
-        <property type="java.lang.Object" name="target" ref="realaction"/>
-        <property type="String" name="interceptorName" value="advisor"/>
+
+<!--    <bean id="action" class="com.minis.aop.ProxyFactoryBean" >-->
+<!--        <property type="java.lang.Object" name="target" ref="realaction"/>-->
+<!--        <property type="String" name="interceptorName" value="advisor"/>-->
+<!--    </bean>-->
+
+
+    <bean id="autoProxyCreator" class="com.minis.aop.framework.autoproxy.BeanNameAutoProxyCreator" >
+        <property type="String" name="pattern" value="action*" />
+        <property type="String" name="interceptorName" value="advisor" />
     </bean>
 
 
